@@ -1,6 +1,5 @@
-# Fluid-Navbar
-Javascript animated navbar
 <h1 align="center">Fluid Navbar</h1>
+<p>Javascript animated navbar</p>
 <h2>Structure of the page</h2>
 <h3>
 <img alt="image-home" src="https://github.com/RobertMatos/Fluid-Navbar/blob/master/Images/image-home.png?raw=true">
@@ -11,4 +10,3 @@ Javascript animated navbar
 <h3>
 <img alt="image-contact" src="https://github.com/RobertMatos/Fluid-Navbar/blob/master/Images/image-contact.png?raw=true">
 </h3>
-
