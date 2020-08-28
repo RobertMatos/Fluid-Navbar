@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    /*Sticky allow the navbar to continue while you navegate to the page*/
+    position: sticky;
+    top: 0px;
+    background: white;
+}
+
+nav{
+    min-height: 10vh;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1, 
+nav ul {
+    font-size: 1.5rem;
+    flex: 1;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2{
+    font-size: 5rem;
+    color: white;
+
+}
+
+.home{
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
+}
+
+.project{
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+}
+
+.contact{
+    background: linear-gradient(to right, #f00000, #dc281e);
+}
+
+.bubble {
+    position: absolute;
+    z-index: -2;
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
+    transform: scale(2);
+    transition: all 0.5s ease;
+}
